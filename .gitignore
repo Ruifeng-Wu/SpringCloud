@@ -1,0 +1,33 @@
+### gradle ###
+.gradle
+build/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+*/out/
+
+###  properties ###
+local.properties
+
+###  Others ###
+*/logs/
+/logs/
+certs
+*.DS_Store
+
+###  Credential file ###
+*-keys.tgz
+
+# Ignore kubernetes rendered files
+kubernetes_rendered/*
+!kubernetes_rendered/.keep
+
+# Boot
+!boot/.keep
+/boot/*.jar
+
+tmp.out
+tmp-error.out
