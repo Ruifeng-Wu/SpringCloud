@@ -1,10 +1,10 @@
-package com.example.config.client;
+package com.example.configservice.service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ClientApplicationTests {
+class ConfigServiceApplicationTests {
 
     @Test
     void contextLoads() {
